@@ -43,10 +43,6 @@ st.markdown("""
     }
     .brand-title { margin: 0; font-size: 26px; font-weight: 800; color: #f8fafc; letter-spacing: -0.5px; }
     .brand-sub { margin: 2px 0 0 0; font-size: 13.5px; color: #94a3b8; }
-    .auth-card {
-        background: #1e293b; border: 1px solid #334155; border-radius: 14px;
-        padding: 26px; box-shadow: 0 10px 30px rgba(0,0,0,0.4);
-    }
     .guide-card {
         background: #0f172a; border: 1px solid #334155; border-radius: 14px;
         padding: 22px; height: 100%;
@@ -202,7 +198,6 @@ if st.session_state.logged_in_user is None:
     auth_col, info_col = st.columns([1.15, 1.85], gap="large")
 
     with auth_col:
-        st.markdown('<div class="auth-card">', unsafe_allow_html=True)
         st.subheader("🔐 Welcome to ChronoPath")
         st.caption("Sign in or create an account to visualize your interactive travel timeline.")
 
@@ -272,7 +267,6 @@ if st.session_state.logged_in_user is None:
                         st.session_state.role = assigned_role
                         st.session_state.inspect_user = new_user
                         st.rerun()
-        st.markdown('</div>', unsafe_allow_html=True)
 
     with info_col:
         render_extraction_guide(expanded_default=True)
@@ -415,7 +409,7 @@ if show_leaderboard:
         df_lb = pd.DataFrame(lb_data)
         metric_choice = st.selectbox("Rank By:", ["Total Distance (km)", "Active Travel Days", "Total Logged Trips"])
         df_lb = df_lb.sort_values(by=metric_choice, ascending=False).reset_index(drop=True)
-        df_lb.index += 1  # 1-based ranking
+        df_lb.index += 1
         df_lb.index.name = "Rank 🏅"
         st.dataframe(df_lb, use_container_width=True)
     else:
@@ -1125,7 +1119,7 @@ if trips:
                         currentStep = 0;
                     }}
                     isPlaying = !isPlaying;
-                    document.getElementById('play-btn').innerText = isPlaying ? '⏸️ Pause' : '▶️ Play';
+                    document.getElementById('play-btn').innerText = isPicker ? '⏸️ Pause' : '▶️ Play';
                     if (isPlaying) startLoop();
                     else clearInterval(timer);
                 }}
