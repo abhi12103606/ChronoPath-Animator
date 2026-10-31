@@ -1,0 +1,88 @@
+{
+  "createdTime": "2019-04-04T06:58:05.639Z",
+  "modifiedTime": "2026-09-20T21:38:13.166Z",
+  "historyEnabled": true,
+  "historyDeletionTime": "2024-12-17T01:33:26.717Z",
+  "deviceSettings": [{
+    "deviceTag": 433203863,
+    "devicePrettyName": "V2025",
+    "platformType": "ANDROID",
+    "lastRequestTime": "2026-02-26T13:46:23.005Z",
+    "deviceCreationTime": "2026-02-26T13:46:23.005Z",
+    "androidOsLevel": 33,
+    "deviceActiveness": {
+      "hasSavedTimelineData": true
+    }
+  }, {
+    "deviceTag": -2120638383,
+    "devicePrettyName": "RMX5110",
+    "platformType": "ANDROID",
+    "lastRequestTime": "2026-01-26T08:02:25.452Z",
+    "deviceCreationTime": "2026-01-26T08:02:25.452Z",
+    "androidOsLevel": 35
+  }, {
+    "deviceTag": 240484856,
+    "devicePrettyName": "AIN065",
+    "platformType": "ANDROID",
+    "lastRequestTime": "2026-10-30T15:45:52.222Z",
+    "deviceCreationTime": "2024-10-11T13:51:11.192Z",
+    "androidOsLevel": 36,
+    "deviceActiveness": {
+      "hasSavedTimelineData": true,
+      "observedPlaceVisitsFor30PercentOfTheLast7d": true
+    }
+  }, {
+    "deviceTag": -173103581,
+    "devicePrettyName": "AIN065",
+    "platformType": "ANDROID",
+    "lastRequestTime": "2026-10-30T11:31:13.987Z",
+    "deviceCreationTime": "2024-03-15T11:28:15.248Z",
+    "androidOsLevel": 36,
+    "deviceActiveness": {
+      "hasSavedTimelineData": true,
+      "observedPlaceVisitsFor30PercentOfTheLast7d": true
+    }
+  }],
+  "latestLocationHistorySettingChange": {
+    "historyEnabledModificationTime": "2022-08-20T22:46:47.595Z",
+    "timelineEnabledModificationTime": "2022-08-20T22:46:47.595Z"
+  },
+  "retentionWindowDays": 2147483647,
+  "hasSetRetention": true,
+  "storeVisitControl": {
+    "enabled": true,
+    "updateTime": "2022-07-14T02:42:16.779536613Z"
+  },
+  "timelineEditUploadsControl": {
+    "enabled": false,
+    "updateTime": "2024-12-15T17:55:58.693728971Z"
+  },
+  "encryptedBackupsControls": {
+    "433203863": {
+      "enabled": false
+    },
+    "-2120638383": {
+      "enabled": false
+    },
+    "-173103581": {
+      "enabled": true,
+      "updateTime": "2025-01-25T14:11:29.361963877Z"
+    },
+    "240484856": {
+      "enabled": false
+    }
+  },
+  "retentionControl": {
+    "retentionWindowDays": 2147483647
+  },
+  "timelineEnabled": true,
+  "timelineDeletionTime": "2024-12-17T01:33:26.717Z",
+  "latestTimelineSettingChange": {
+    "historyEnabledModificationTime": "2022-08-20T22:46:47.595Z",
+    "timelineEnabledModificationTime": "2022-08-20T22:46:47.595Z"
+  },
+  "googleOpinionRewardsControl": {
+    "enabled": true,
+    "updateTime": "2024-11-14T04:41:09.567054655Z"
+  }
+}

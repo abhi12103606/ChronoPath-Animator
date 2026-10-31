@@ -1,0 +1,24 @@
+{
+  "abhishek": {
+    "password": "276f430ea383852ef0c31cb834575f9267e81fd20a03bcea259b968c6d577892",
+    "role": "admin",
+    "last_active": "2026-10-31 16:11",
+    "total_trips": 9030,
+    "total_km": 73970.2,
+    "active_days": 2275
+  },
+  "abhishek0": {
+    "password": "362a4014e47558896c0fb27d938906717aaced93fc26ddfe23a31b4fc4431631",
+    "role": "user"
+  },
+  "abhi": {
+    "password": "c775e7b757ede630cd0aa1113bd102661ab38829ca52a6422ab782862f268646",
+    "email": "",
+    "role": "user",
+    "created_at": "2026-10-31 15:44",
+    "last_active": "2026-10-31 16:08",
+    "total_trips": 9030,
+    "total_km": 73970.2,
+    "active_days": 2275
+  }
+}
